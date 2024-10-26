@@ -3,25 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - AutoML Platform</title>
     <link rel="stylesheet" href="css/styles.css">
+    <title>Login</title>
 </head>
 <body>
-    <header>
-        <h1>Login to AutoML Platform</h1>
-    </header>
-    <main>
-        <form id="login-form">
+    <div class="container">
+        <h2>Login</h2>
+        <form id="loginForm">
             <label for="username">Username:</label>
-            <input type="text" id="username" required>
+            <input type="text" id="username" name="username" required>
             <label for="password">Password:</label>
-            <input type="password" id="password" required>
-            <button type="submit" class="btn">Login</button>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
         </form>
-    </main>
-    <footer>
-        <p>&copy; 2024 AutoML Platform</p>
-    </footer>
+        <p>Don't have an account? <a href="register.html">Register here</a></p>
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>
